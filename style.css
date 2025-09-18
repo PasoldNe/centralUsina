@@ -1,4 +1,29 @@
+:root{
+    --bgColorUm: rgba(0, 0, 0, 0.8);
+    /*cor de fundo pricipal*/
+    --bgColorDois: rgba(0, 0, 0, 0.9);
+    /*cor de fundo usada um BOTOES ou etiquetas*/
+    --bgColorTres: rgba(0, 0, 0);
+    /*cor de fundo usada em HOVER de BOTOES ou funcoes*/
 
+
+    --sombraColorUm: rgba(0, 0, 0, 0.4);
+    /*cor da SOMBRA usada em botoes*/
+    --sombraColorDois: rgb(0, 0, 0);
+    /*cor da SOMBRA em HOVER em botoes*/
+
+
+    --fontPrincipal: arial;
+    /*fonte usada para qulquer coisa*/
+
+    --corFonteUm: rgba( 255, 255, 255, 0.77)
+    /*cor fonte principa*/
+    --corFonteUm: rgba( 255, 255, 255, 0.9)
+    /*cor fonte HOVER*/
+
+    --corDestaque: rgb(10, 10, 10); /*adicionar cor especifica*/
+    /*cor de botoes em destaque*/
+}
 
 body{
     background-color: rgba(0, 0, 0, 0.8);
@@ -9,5 +34,20 @@ body{
     position: fixed;
     left: 0px;
     background-color: black;
-    width: 50px;
+    width: 150px;
+    list-style: none;
+}
+
+#principalHub li :hover{
+    transform: scale(1.1);
+}
+
+#principalHub p{
+    list-style: none;
+    color: rgba(0, 0, 0, 0.1);
+}
+#principalHub p :hover{
+    list-style: none;
+    color: rgba(0, 0, 0, 0.05);
+    transform: scale(1.1);
 }
