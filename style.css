@@ -36,10 +36,23 @@ body{
     background-color: var(--bgColorDois);
     width: 150px;
     list-style: none;
-    
+    justify-content: center;
+    justify-items: center;
+    margin: 50px;
+}
+
+#principalHub nav {
+    margin: 70px;
+    display: contents;
+    justify-content: center;
+}
+
+#principalHub li {
+    box-shadow: inset 2px 2px var(--sombraColor);
 }
 #principalHub li :hover{
     transform: scale(1.1);
+    box-shadow: inset 3px 3px var(--sombraColorHover);
 }
 
 #principalHub p{
