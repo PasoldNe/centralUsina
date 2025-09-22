@@ -36,6 +36,7 @@ body{
     background-color: var(--bgColorDois);
     width: 150px;
     list-style: none;
+    
 }
 #principalHub li :hover{
     transform: scale(1.1);
@@ -46,7 +47,6 @@ body{
     color: var(--corFonte);
 }
 #principalHub p :hover{
-    list-style: none;
     color: var(--bgColorDoisHover);
     transform: scale(1.1);
 }
